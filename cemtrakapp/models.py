@@ -19,10 +19,12 @@ class Organization(models.Model):
 
 class Emitter(models.Model):
     name = models.CharField(max_length=255)
+    # emitters add carbon to the atmosphere; compensators remove carbon from the atmosphere
+    is_compensator = models.BooleanField(default=False)
     measurement_unit = models.CharField(
         max_length=20,
         choices=MeasurementUnit.choices,
-        default=MeasurementUnit.GCO2EQ_KWH
+        default=MeasurementUnit.MT_CO2E
     )
     high_measurement_amt = models.DecimalField(max_digits=10, decimal_places=2)
     med_measurement_amt = models.DecimalField(max_digits=10, decimal_places=2)

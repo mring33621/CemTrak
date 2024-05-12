@@ -4,19 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ebdee6f4-b0d8-4c70-86f1-8c6a26ea483c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/CemTrak.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CemTrak/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CemTrak/asgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CemTrak/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CemTrak/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CemTrak/wsgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
+    <list default="true" id="ebdee6f4-b0d8-4c70-86f1-8c6a26ea483c" name="Changes" comment="Initial commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cemtrakapp/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/cemtrakapp/models.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +19,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "mring33621"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/mring33621/CemTrak.git",
+    "accountId": "0cd0017b-1df4-4e8e-a666-a96b79fbfed8"
+  }
+}]]></component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 7
 }]]></component>
@@ -105,11 +107,24 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1715434971899</updated>
-      <workItem from="1715434995729" duration="14039000" />
+      <workItem from="1715434995729" duration="15166000" />
     </task>
+    <task id="LOCAL-00001" summary="Initial commit">
+      <option name="closed" value="true" />
+      <created>1715466361161</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1715466361161</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
   </component>
 </project>
