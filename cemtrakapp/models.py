@@ -19,6 +19,7 @@ class Organization(models.Model):
 
 class Emitter(models.Model):
     name = models.CharField(max_length=255)
+    external_id = models.CharField(max_length=255, unique=True)
     # emitters add carbon to the atmosphere; compensators remove carbon from the atmosphere
     is_compensator = models.BooleanField(default=False)
     measurement_unit = models.CharField(
@@ -35,4 +36,4 @@ class Emitter(models.Model):
     updated = models.DateTimeField(auto_now=True)
 
     def __str__(self):
-        return f'{self.organization} -- {self.name}'
+        return f'{self.external_id} -- {self.organization} -- {self.name}'
