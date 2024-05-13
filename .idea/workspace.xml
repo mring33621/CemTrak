@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ebdee6f4-b0d8-4c70-86f1-8c6a26ea483c" name="Changes" comment="Emitters and Compensators now have a required, unique external ID field.">
+    <list default="true" id="ebdee6f4-b0d8-4c70-86f1-8c6a26ea483c" name="Changes" comment="Updated Readme.md">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cemtrakapp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/cemtrakapp/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,6 +110,7 @@
       <updated>1715434971899</updated>
       <workItem from="1715434995729" duration="21252000" />
       <workItem from="1715620963355" duration="514000" />
+      <workItem from="1715622870481" duration="3536000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <option name="closed" value="true" />
@@ -133,7 +136,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715557227407</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Updated Readme.md">
+      <option name="closed" value="true" />
+      <created>1715623036891</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1715623036891</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -143,6 +154,7 @@
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Added 'is_compensator' flag to Emitter, where emitters add carbon to the atmosphere and compensators remove carbon from the atmosphere." />
     <MESSAGE value="Emitters and Compensators now have a required, unique external ID field." />
-    <option name="LAST_COMMIT_MESSAGE" value="Emitters and Compensators now have a required, unique external ID field." />
+    <MESSAGE value="Updated Readme.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated Readme.md" />
   </component>
 </project>

@@ -18,3 +18,4 @@
 - Normally, Emitters add carbon to the atmosphere
 - A special case of Emitters, called Compensators, remove carbon from the atmosphere
 - A Compensator might be a scrubber device or the purchase of carbon offsets
+- GET views for /cemtrakapp/organizations/datadump and /cemtrakapp/emitters/datadump, to allow easy, read-only, CSV access to the respective data.
